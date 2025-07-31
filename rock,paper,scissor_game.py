@@ -5,19 +5,19 @@ computer_score=0
 
 option=["rock","paper","scissor"]
 
-# while True:
-#     user_input=input("Type Rock/Paper/Scissor or Q to quit :").lower()
-#     if user_input=="q":
-#         break
+while True:
+    user_input=input("Type Rock/Paper/Scissor or Q to quit :").lower()
+    if user_input=="q":
+        break
     
-#     if user_input not in ["rock","paper","scissor"]:
-#         continue
+    if user_input not in ["rock","paper","scissor"]:
+        continue
 
-#     random_number=random.randint(0,2)
-#     # rock :0 , paper :1 ,scissor :2
-
-#     computer_guess=option[random_number] 
-#     print("computer picked",computer_guess+".")
+    random_number=random.randint(0,2)
+    # rock :0 , paper :1 ,scissor :2
+    
+    computer_guess=option[random_number] 
+    print("computer picked",computer_guess+".")
 
 #     if user_input=="rock" and computer_guess=="scissor":
 #         print("You won !!")
